@@ -164,7 +164,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/noshotbigjuicersbilal151/PocketPlanner",
     },
     {
       name: "Pacman Game AI",
@@ -185,7 +185,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/rchandran7/PacMan",
     },
     {
       name: "Medial Malpractice Claim Settlement Predictor",
@@ -227,7 +227,7 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/noshotbigjuicersbilal151/3d_portfolio",
     },
     {
       name: "AI 8 Puzzle Solver",
@@ -248,7 +248,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/noshotbigjuicersbilal151/8PuzzleSolver",
     },
   ];
   

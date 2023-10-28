@@ -1,6 +1,9 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
-
+import {
+  BrowserRouter as Router,
+  Link
+} from "react-router-dom"
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -20,10 +23,13 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
   {/* Contact information */}
-  <div className="flex mt-4">
+      <div className="flex mt-4">
         <p className="mr-4">Email: bilalsnasir@gmail.com</p>
-        <p>Phone: 909-663-7611</p>
+        <p className="mr-4">Phone: 909-663-7611</p>
       </div>
+      <div><Link to="https://www.linkedin.com/in/bilal-nasir-563504240/" style={{color: '#7dd3ff', fontWeight: 600, fontStyle: 'italic'}}>LinkedIn</Link></div>
+
+
       </motion.div>
 
       <motion.div
