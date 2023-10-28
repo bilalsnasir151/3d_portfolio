@@ -14,7 +14,10 @@ import {
     carrent,
     jobit,
     tripguide,
+    CLogo,
+    pyLogo,
   } from "../assets";
+  
   export const navLinks = [
     {
       id: "about",
@@ -51,16 +54,28 @@ import {
   
   const technologies = [
     {
+      name: "Python",
+      icon: pyLogo,
+    },
+    {
+      name: "C/C++",
+      icon: CLogo,
+    },
+    {
       name: "JavaScript",
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
+      name: "Git/GitHub",
+      icon: git,
+    },    
     {
       name: "React/React Native JS",
       icon: reactjs,
+    },
+    {
+      name: "TypeScript",
+      icon: typescript,
     },
     {
       name: "Tailwind CSS",
@@ -70,18 +85,7 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    {
-      name: "Git",
-      icon: git,
-    },
-    {
-      name: "Python",
-      icon: git,
-    },
-    {
-      name: "C/C++",
-      icon: git,
-    },
+
   ];
   
   const experiences = [
@@ -142,9 +146,9 @@ import {
   
   const projects = [
     {
-      name: "Pocket Planner",
+      name: "Pocket Planner | IOS App (Deployed)",
       description:
-        "IOS application currently in Public Testing that helps users or groups keep track of their busy schedules.",
+        "Full Stack scheduling application using React Native, AWS, and CSS that helps users and groups keep track of their tasks, meetings, and schedules.",
       tags: [
         {
           name: "react-native",
@@ -156,6 +160,48 @@ import {
         },
         {
           name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Pacman Game AI",
+      description:
+        "Developed an AI for the classic Pacman game that enabled it to play and beat levels optimally, using advanced decision-making algorithms and pathfinding techniques.",
+      tags: [
+        {
+          name: "AI",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MachineLearning",
+          color: "green-text-gradient",
+        },
+        {
+          name: "DataStructures",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Medial Malpractice Claim Settlement Predictor",
+      description:
+        "Developed a comprehensive model for predicting the settlement amount of medical malpractice claims, incorporating multiple regression models and considering various claim-specific factors.",
+      tags: [
+        {
+          name: "DataManagement",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MachineLearning",
+          color: "green-text-gradient",
+        },
+        {
+          name: "AI",
           color: "pink-text-gradient",
         },
       ],
@@ -184,20 +230,20 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "8 Puzzle Solver",
+      name: "AI 8 Puzzle Solver",
       description:
-        "Python program that solves the popular 8 puzzle game in the most efficient way possible.",
+        "Developed an 8-puzzle solver with a command-line interface, leveraging advanced search algorithms to efficiently always find the most optimal solution to the puzzle. ",
       tags: [
         {
           name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "priority-queue",
+          name: "DataStructures",
           color: "green-text-gradient",
         },
         {
-          name: "A*",
+          name: "AI",
           color: "pink-text-gradient",
         },
       ],
