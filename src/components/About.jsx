@@ -41,27 +41,25 @@ const About = () => {
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
-        <p className={styles.sectionSubText}>B.S. Computer Science (2023), University of California Riverside</p>
-        <p className={styles.sectionSubText}>M.S. Computer Science (Expected 2025), University of California Riverside</p>
-
+        <p className={styles.sectionSubText}>- M.S. Computer Science (Expected 2025), University of California Riverside</p>
+        <p className={styles.sectionSubText}>- B.S. Computer Science (2023), University of California Riverside</p>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in JavaScript and Python, 
-        I have expertise in frameworks like React/React Native, Node.js, and
-        Three.js. I'm a quick learner and love to
+        I'm a skilled software developer with experience in C/C++, JavaScript, and Python.
+        I'm a quick learner and love to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      {/* <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-      </div>
+      </div> */}
     </>
   );
 };

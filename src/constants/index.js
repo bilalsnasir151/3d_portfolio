@@ -5,24 +5,16 @@ import {
     web,
     javascript,
     typescript,
-    css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
     meta,
     starbucks,
     carrent,
     jobit,
     tripguide,
-    threejs,
   } from "../assets";
-
-  
   export const navLinks = [
     {
       id: "about",
@@ -79,48 +71,44 @@ import {
       icon: nodejs,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
+      name: "Git",
       icon: git,
     },
     {
-      name: "python",
+      name: "Python",
       icon: git,
     },
     {
-      name: "c++",
+      name: "C/C++",
       icon: git,
     },
   ];
   
   const experiences = [
     {
-      title: "Math/Pyton Tutor",
-      company_name: "Freelance",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "January 2020 - June 2023",
-      points: [
-        "Provided tailored, one-on-one tutoring sessions to students of varying skill levels, ensuring personalized guidance and support in mathematics and Python programming.",
-        "Designed and developed customized learning plans and lesson materials to address specific student needs and learning objectives, promoting effective comprehension and skill improvement.",
-        "Implemented regular assessments and progress tracking mechanisms to evaluate student performance and adapt teaching methods accordingly, resulting in measurable academic improvements.",
-        "Fostered a collaborative and encouraging learning environment by explaining complex mathematical concepts and Python coding principles in a clear, approachable manner, promoting student engagement and confidence.",
-      ],
-    },
-    {
       title: "Software Engineering Intern",
       company_name: "ASN Computers",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "June 2018 - Present",
+      date: "2018 - 2023",
       points: [
-        "Updated old code bases to modern development standards, improving functionality",
-        "Tested new applications for usability and adherence ot code plan",
-        "Participated in entire software development cycle from start-up specifications to rollout of final product",
-        "Troubleshot software and hardware issues for clients, solving approximately 35-45 issues a week",
+        "Utilized Python to design and program an efficient inventory management system, streamlining the tracking of inventory across multiple teams in the company",
+        "Collaborated with development team to conduct in-depth code reviews, ensuring adherence to coding standards, identifying potential issues, and promoting code quality and consistency within the codebase.",
+        "Modernized legacy code bases to align with current development standards, enhancing overall functionality and maintainability.",
+        "Conducted comprehensive usability testing on new applications, ensuring alignment with project specifications and code plans.",
+      ],
+    },
+    {
+      title: "Firmware Engineer",
+      company_name: "UCR FORMULA SAE",
+      icon: starbucks,
+      iconBg: "#383E56",
+      date: "2022 - Present",
+      points: [
+        "Utilized C/C++ on STM32 and TI chips to create and maintain firmware for the Battery Management Unit (BMU) and Vehicle Control Unit (VCU).",
+        "Implemented battery discharge algorithms on the BMU, extending battery lifespan, reliability, and car performance.",
+        "Implemented advanced features such as traction control and launch control on the VCU, which improved safety as well as car performance.",
+        "Worked collaboratively within a team environment, utilizing Git/GitHub for version control to enable effective code collaboration and maintain project traceability.",
       ],
     },
   ];
